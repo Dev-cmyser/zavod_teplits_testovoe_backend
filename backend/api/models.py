@@ -75,7 +75,7 @@ class City(BaseModel):
 
 class Feedback(BaseModel):
     name = models.CharField(max_length=254, verbose_name='Имя')
-    message = models.CharField(max_length=254, verbose_name='Отзыв')
+    message = models.TextField( verbose_name='Отзыв')
     photo = models.ImageField(upload_to='media/persons', max_length=254, verbose_name='Фото', blank=True, null=True)
     is_active = models.BooleanField(default=True, verbose_name='Статус')
 
