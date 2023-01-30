@@ -4,7 +4,7 @@ git clone https://github.com/Dev-cmyser/zavod_teplits_testovoe_backend.git
 
 # 2 
 
-cd backend
+cd zavod_teplits_testovoe_backend
 
 # 3 
  docker-compose up --build
