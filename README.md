@@ -1,6 +1,6 @@
 # 1
 
-git clone
+git clone https://github.com/Dev-cmyser/zavod_teplits_testovoe_backend.git
 
 # 2 
 
