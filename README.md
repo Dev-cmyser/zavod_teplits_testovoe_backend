@@ -12,4 +12,10 @@ cd zavod_teplits_testovoe_backend
  # 4 go to
  
  localhost:8000
+ login → adm
+ password → adm
  
+ 
+ 
+ # and after go to 
+ https://dev-cmyser.github.io/zavod_teplits_frontend/
