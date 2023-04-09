@@ -10,4 +10,3 @@ RUN pip install -r requirements.txt
 COPY . /code/
 
 WORKDIR /code/backend
-RUN python manage.py migrate

@@ -2,10 +2,10 @@ import os
 import sys
 
 from pathlib import Path
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 
 
-load_dotenv()
+# load_dotenv()
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
@@ -50,7 +50,7 @@ THIRD_PARTY = [
 
 LOCAL_APPS = [
     "api",
-    "front",
+    # "front",
 ]
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY + LOCAL_APPS
@@ -180,3 +180,4 @@ CORS_ALLOW_ALL_ORIGINS = True
 CORS_ORIGIN_ALLOW_ALL = True
 CORS_ORIGIN_WHITELIST = [ 'http://127.0.0.1:5500',]
 
+CONSTANCE_BACKEND = 'constance.backends.database.DatabaseBackend'
